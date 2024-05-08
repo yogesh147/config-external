@@ -15,7 +15,7 @@ queryAPIURI: queryAPI
 testAPIURI:
 
 server:
-  port: 8081
+  port: 8080
 
 management:
   security:
@@ -23,4 +23,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: info,env,health,metrics
+        include: "*"
