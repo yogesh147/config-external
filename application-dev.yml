@@ -3,7 +3,7 @@ spring:
     activate:
       on-profile: dev
   application:
-    name: care-external
+    name: care-dev
   redis:
     host: localhost
     port: 6379
