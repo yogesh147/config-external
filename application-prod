@@ -1,1 +1,29 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+  application:
+    name: care-prod
+  redis:
+    host: localhost
+    port: 6379
+    expire: 3000
+  api:
+    auth:
 
+queryAPIURI: queryprodAPI
+testAPIURI:
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+    beans:
+      enabled: true
