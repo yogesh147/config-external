@@ -11,7 +11,7 @@ spring:
   api:
     auth:
 
-queryAPIURI:
+queryAPIURI: ww
 testAPIURI:
 
 server:
