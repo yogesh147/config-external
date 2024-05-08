@@ -11,7 +11,7 @@ spring:
   api:
     auth:
 
-queryAPIURI: queryDevAPI
+queryAPIURI: queryDeAPI
 testAPIURI:
 
 server:
